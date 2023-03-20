@@ -1,0 +1,53 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+/* ここから */
+  .mv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .mv-wrap {
+    position: relative;
+    height: 500px;
+  }
+
+  video {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mv-bg {
+    display: block;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 30, 0, 0.2);
+    z-index: 2;
+  }
+
+  .mv-txt {
+    color: #fff;
+    font-size: 50px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin: auto;
+    text-align: center;
+  }
